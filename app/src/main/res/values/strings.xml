@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Disney characters</string>
+    <string name="welcome_to_disney_characters">Welcome to \nDisney Characters</string>
+    <string name="get_started">GET STARTED</string>
+</resources>
