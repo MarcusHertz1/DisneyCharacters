@@ -2,4 +2,13 @@
     <string name="app_name">Disney characters</string>
     <string name="welcome_to_disney_characters">Welcome to \nDisney Characters</string>
     <string name="get_started">GET STARTED</string>
+    <string name="charter_name">Charter name</string>
+    <string name="all">All</string>
+    <string name="my">My</string>
+    <string name="all_bt">All</string>
+    <string name="my_bt">My</string>
+    <string name="charter_name_info">Charter name</string>
+    <string name="charter_info">Charter Info</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
 </resources>

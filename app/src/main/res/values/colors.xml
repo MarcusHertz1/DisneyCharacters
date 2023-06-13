@@ -10,4 +10,7 @@
 
 
     <color name="startBT">#336774</color>
+    <color name="mainBT">#8E97FD</color>
+    <color name="backCharterBT">#E6E7F2</color>
+    <color name="favoriteCharterBT">#03174C</color>
 </resources>
