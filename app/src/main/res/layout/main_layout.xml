@@ -42,7 +42,7 @@
         android:contentDescription="@string/my_bt"
         app:cornerRadius="25dp"
         android:text=""
-        android:paddingHorizontal="18.5dp"
+        android:paddingHorizontal="18dp"
         />
 
     <TextView

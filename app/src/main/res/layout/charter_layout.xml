@@ -48,6 +48,7 @@
         android:text=""
         app:cornerRadius="38dp"
         app:icon="@drawable/back_image"
+        app:iconTint="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -59,7 +60,7 @@
         android:text=""
         app:cornerRadius="38dp"
         app:icon="@drawable/favorite_image"
-        android:paddingHorizontal="13.5dp"
+        android:paddingHorizontal="13dp"
         app:layout_constraintStart_toEndOf="@+id/materialButton"
         app:layout_constraintTop_toTopOf="@+id/materialButton" />
 

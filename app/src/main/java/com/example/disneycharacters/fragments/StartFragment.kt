@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.disneycharacters.MainActivity
+import androidx.navigation.fragment.findNavController
 import com.example.disneycharacters.databinding.StartLayoutBinding
 
 class StartFragment : Fragment() {
@@ -24,7 +24,9 @@ class StartFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.getStartedBT.setOnClickListener {
-            (activity as? MainActivity)?.addFragment(MainFragment())
+            val action =
+                StartFragmentDirections.actionStartFragmentToMainFragment()
+            findNavController().navigate(action)
         }
     }
 }
